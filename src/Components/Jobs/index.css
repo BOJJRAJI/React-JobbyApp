@@ -1,0 +1,126 @@
+.jobs-bg-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #000000;
+  padding: 20px;
+  min-height: 100vh;
+}
+.profile-filter-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.jobs-search-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding-left: 20px;
+}
+.line {
+  color: #64748b;
+  background-color: #64748b;
+  width: 100%;
+}
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.jobs-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.jobs-failure-image {
+  height: 300px;
+  width: 300px;
+}
+.jobs-failure-heading {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.jobs-failure-para {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+.jobs-failure-button {
+  color: #ffffff;
+  background-color: #6366f1;
+  border: none;
+  border-radius: 7px;
+  width: 100px;
+  height: 40px;
+}
+@media screen and (max-width: 576px) {
+  .jobs-bg-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-filter-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .jobs-search-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .jobs-search-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #64748b;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px;
+  }
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #64748b;
+  background-color: transparent;
+  width: 60%;
+  border-radius: 4px;
+  padding: 5px;
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  color: #ffffff;
+}
+.search-icon-button {
+  background-color: #272727;
+  border: none;
+}
+.search-icon {
+  color: #64748b;
+  text-align: right;
+  margin-top: 4px;
+}
+
+.job-items-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0px;
+}

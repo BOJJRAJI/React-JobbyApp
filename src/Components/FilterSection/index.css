@@ -1,0 +1,24 @@
+.filter-group-container {
+  display: flex;
+  flex-direction: column;
+}
+.employee-type-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.employee-filter-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.employee-list-item {
+  display: flex;
+  flex-direction: row;
+}
+.filter-input-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 10px;
+  color: #ffffff;
+}

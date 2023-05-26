@@ -1,0 +1,68 @@
+.header-container {
+  width: 100%;
+  background-color: #272727;
+  padding: 10px;
+  padding-top: 10px;
+}
+.large-device-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app-logo {
+  height: 50px;
+  width: 70px;
+}
+.home-jobs-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.list-text {
+  margin-right: 5px;
+}
+.list-link {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.logout-button {
+  color: #ffffff;
+  background-color: #6366f1;
+  border: none;
+  border-radius: 7px;
+  height: 40px;
+  width: 100px;
+}
+.mobile-device-images {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .large-device-items {
+    display: none;
+  }
+  .mobile-device-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.mobile-app-logo {
+  height: 40px;
+  width: 60px;
+}
+.header-items-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.list-image {
+  margin-right: 10px;
+}
+.logout-button-icon {
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+}

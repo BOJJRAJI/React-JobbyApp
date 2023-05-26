@@ -1,0 +1,16 @@
+.similar-job-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #272727;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+@media screen and (max-width: 576px) {
+  .similar-job-list {
+    width: 100%;
+  }
+}
